@@ -115,6 +115,7 @@ You can instantiate the database cache driver with the following code:
     $cacheConn   = Doctrine_Manager::connection( new PDO( 'sqlite::memory:' ) );
     $cacheDriver = new Doctrine_Cache_Db( array( 'connection' => $cacheConn ) );
 
+
 ==========================
 Query Cache & Result Cache
 ==========================
