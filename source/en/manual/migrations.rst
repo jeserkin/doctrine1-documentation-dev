@@ -121,7 +121,6 @@ For the first version lets create a new table named ``migration_test``:
 ::
 
     // migrations/1_add_table.php
-
     class AddTable extends Doctrine_Migration_Base
     {
         public function up()
@@ -304,7 +303,7 @@ Create Constraint
 Drop Constraint
 ^^^^^^^^^^^^^^^
 
-**Now the opposite ``down()`` would look like the following:**
+**Now the opposite** ``down()`` **would look like the following:**
 
 ::
 
@@ -514,8 +513,7 @@ triggered:
         {
             $this->dropTable( 'migration_test' );
         }
-
-}
+    }
 
 .. note::
 
@@ -580,15 +578,15 @@ and when we run down the column will be removed.
 
 Here is a list of the following migration methods that can be automated:
 
-====================  ===========================
+====================  =======================================
 Automate Method Name  Automates
-====================  ===========================
-table()               createTable()/dropTable()
-constraint()          createConstraint()/dropConstraint()
-foreignKey()          createForeignKey()/dropForeignKey()
-column()              addColumn()/removeColumn()
-index()               addInex()/removeIndex()
-====================  ===========================
+====================  =======================================
+**table()**           **createTable()/dropTable()**
+**constraint()**      **createConstraint()/dropConstraint()**
+**foreignKey()**      **createForeignKey()/dropForeignKey()**
+**column()**          **addColumn()/removeColumn()**
+**index()**           **addInex()/removeIndex()**
+====================  =======================================
 
 ----------------------
  Generating Migrations
@@ -609,7 +607,7 @@ it is simple, just use ``Doctrine_Core::generateMigrationsFromDb()``.
 
 ::
 
-    Doctrine_Core::generateMigrationsFromDb('/path/to/migration/classes');
+    Doctrine_Core::generateMigrationsFromDb( '/path/to/migration/classes' );
 
 ^^^^^^^^^^^^^^^^^^^^
 From Existing Models
