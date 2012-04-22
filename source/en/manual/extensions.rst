@@ -47,7 +47,7 @@ environment variable.
 
     $ export DOCTRINE_DIR=/path/to/doctrine
 
- .. note::
+.. note::
 
     The above path to Doctrine must be the path to the main
     folder, not just the lib folder. In order to run the tests it must
