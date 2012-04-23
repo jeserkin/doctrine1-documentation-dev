@@ -16,10 +16,10 @@ done.
 
     Doctrine has also borrowed pieces of code from other open
     source projects instead of re-inventing the wheel. Two of the
-    projects borrowed from are [http://www.symfony-project.com symfony]
-    and the [http://framework.zend.com Zend Framework]. The relevant
+    projects borrowed from are `symfony <http://www.symfony-project.com>`_
+    and the `Zend Framework <http://framework.zend.com>`_. The relevant
     license information can be found in the root of Doctrine when you
-    [http://www.doctrine-project.org download] it in a file named
+    `download <http://www.doctrine-project.org>`_ it in a file named
     ``LICENSE``.
 
 ============
@@ -34,17 +34,17 @@ Doctrine CORE
 -------------
 
 -  Doctrine
--  [doc component-overview:manager Doctrine\_Manager]
--  [doc component-overview:connection Doctrine\_Connection]
--  [doc improving-performance:compile Doctrine\_Compiler]
--  [doc exceptions-and-warnings Doctrine\_Exception]
--  Doctrine\_Formatter
--  Doctrine\_Object
--  Doctrine\_Null
--  [doc event-listeners Doctrine\_Event]
--  Doctrine\_Overloadable
--  Doctrine\_Configurable
--  [doc event-listeners Doctrine\_EventListener]
+-  :doc:`component-overview:manager`
+-  [doc component-overview:connection Doctrine_Connection]
+-  [doc improving-performance:compile Doctrine_Compiler]
+-  [doc exceptions-and-warnings Doctrine_Exception]
+-  Doctrine_Formatter
+-  Doctrine_Object
+-  Doctrine_Null
+-  [doc event-listeners Doctrine_Event]
+-  Doctrine_Overloadable
+-  Doctrine_Configurable
+-  [doc event-listeners Doctrine_EventListener]
 
 -------------
 Doctrine DBAL
