@@ -72,6 +72,8 @@ compile the ``mysql`` driver:
 Now you can change your :file:`bootstrap.php` script to include the compiled
 Doctrine:
 
+::
+
     // bootstrap.php
 
     // ...
