@@ -14,6 +14,7 @@ jobs are.
 =======
 Manager
 =======
+-------------------------------
 
 The :php:class:`Doctrine_Manager` class is a singleton and is the root of the
 configuration hierarchy and is used as a facade for controlling several
