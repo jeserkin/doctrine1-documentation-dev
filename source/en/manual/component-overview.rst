@@ -11,6 +11,8 @@ chapter you will have a better idea of all the components and what their
 jobs are.
 
 =======
+.. _component-overview-manager:
+
 Manager
 =======
 
