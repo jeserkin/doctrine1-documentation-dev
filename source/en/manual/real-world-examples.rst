@@ -321,7 +321,7 @@ boards, threads and posts:
             $this->hasMany( 'Forum_Entry as Entries',
                 array(
                     'local'   => 'id',
-                    'foreign' => thread_id',
+                    'foreign' => 'thread_id',
                 )
             );
         }
