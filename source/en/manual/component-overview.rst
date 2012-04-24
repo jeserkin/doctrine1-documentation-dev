@@ -10,11 +10,9 @@ discussed most of the components in the previous chapters but after this
 chapter you will have a better idea of all the components and what their
 jobs are.
 
-.. _component-overview-manager:
 =======
 Manager
 =======
--------------------------------
 
 The :php:class:`Doctrine_Manager` class is a singleton and is the root of the
 configuration hierarchy and is used as a facade for controlling several
