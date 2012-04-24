@@ -46,6 +46,7 @@ over the $manager variable to loop over the connections.
         echo $connection->getName() . "";
     }
 
+.. _component-overview-connection:
 
 ==========
 Connection
@@ -809,6 +810,8 @@ Now you can delete all users and their related composite objects by calling
 collection calling delete one each one::
 
     $users->delete();
+
+.. _using-expression-values:
 
 -----------------------
 Using Expression Values
