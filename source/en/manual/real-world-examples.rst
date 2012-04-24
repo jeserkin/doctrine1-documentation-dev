@@ -332,6 +332,7 @@ the :doc:`yaml-schema-files` chapter:
 
 .. code-block:: yaml
 
+    ---
     Forum_Category:
       columns:
         root_category_id: integer(10)
