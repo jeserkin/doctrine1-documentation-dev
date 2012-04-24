@@ -35,28 +35,27 @@ Doctrine CORE
 
 -  Doctrine
 -  :ref:`Doctrine_Manager <component-overview-manager>`
--  [doc component-overview:connection Doctrine_Connection]
--  [doc improving-performance:compile Doctrine_Compiler]
--  [doc exceptions-and-warnings Doctrine_Exception]
+-  :ref:`Doctrine_Connection <component-overview-connection>`
+-  :ref:`Doctrine_Compiler <improving-performance-compile>`
+-  :doc:`Doctrine_Exception <exceptions-and-warnings>`
 -  Doctrine_Formatter
 -  Doctrine_Object
 -  Doctrine_Null
--  [doc event-listeners Doctrine_Event]
+-  :doc:`Doctrine_Event <event-listeners>`
 -  Doctrine_Overloadable
 -  Doctrine_Configurable
--  [doc event-listeners Doctrine_EventListener]
+-  :doc:`Doctrine_EventListener <event-listeners>`
 
 -------------
 Doctrine DBAL
 -------------
 
--  [doc component-overview:record:using-expression-values
-   Doctrine\_Expression\_Driver]
--  [doc database-abstraction-layer:export Doctrine\_Export]
--  [doc database-abstraction-layer:import Doctrine\_Import]
--  Doctrine\_Sequence
--  [doc transactions Doctrine\_Transaction]
--  [doc database-abstraction-layer:datadict Doctrine\_DataDict]
+-  :ref:`Doctrine_Expression_Driver <using-expression-values>`
+-  [doc database-abstraction-layer:export Doctrine_Export]
+-  [doc database-abstraction-layer:import Doctrine_Import]
+-  Doctrine_Sequence
+-  [doc transactions Doctrine_Transaction]
+-  [doc database-abstraction-layer:datadict Doctrine_DataDict]
 
 Doctrine DBAL is also divided into driver packages.
 
