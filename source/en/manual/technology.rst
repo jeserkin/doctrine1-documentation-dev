@@ -34,7 +34,7 @@ Doctrine CORE
 -------------
 
 -  Doctrine
--  :ref:`component-overview-manager`
+-  :ref:`Doctrine_Manager <component-overview-manager>`
 -  [doc component-overview:connection Doctrine_Connection]
 -  [doc improving-performance:compile Doctrine_Compiler]
 -  [doc exceptions-and-warnings Doctrine_Exception]
