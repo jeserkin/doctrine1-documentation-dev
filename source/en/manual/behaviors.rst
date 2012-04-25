@@ -1785,5 +1785,5 @@ to write our own for our models as well as how to use all the great
 behaviors that come bundled with Doctrine.
 
 Now we are ready to move on to discuss the :doc:`searching`
-behavior in more detail in the `doc:`searching` chapter. As it is a
+behavior in more detail in the :doc:`searching` chapter. As it is a
 large topic we have devoted an entire chapter to it.
