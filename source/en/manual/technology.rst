@@ -96,7 +96,7 @@ Design Patterns Used
 ``GoF (Gang of Four)`` design patterns used:
 
 -  `Singleton <http://www.dofactory.com/Patterns/PatternSingleton.aspx>`_, for forcing only one instance of :php:class:`Doctrine_Manager`
--  `Composite <http://www.dofactory.com/Patterns/PatternComposite.aspx>_`, for leveled configuration
+-  `Composite <http://www.dofactory.com/Patterns/PatternComposite.aspx>`_, for leveled configuration
 -  `Factory <http://www.dofactory.com/Patterns/PatternFactory.aspx>`_, for connection driver loading and many other things
 -  `Observer <http://www.dofactory.com/Patterns/PatternObserver.aspx>`_, for event listening
 -  `Flyweight <http://www.dofactory.com/Patterns/PatternFlyweight.aspx>`_, for efficient usage of validators
